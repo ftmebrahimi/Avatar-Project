@@ -22,25 +22,25 @@ Follow these steps to set up and run the Avatar Agent locally.
 
 ### 1️⃣ Install Python Dependencies
 
-First, install all required Python packages:
-pip install -r requirements.txt
+First, install all required Python packages:  
+pip install -r requirements.txt  
 
 ### 2️⃣ Clone and Run LiveKit Agents Playground
 
-git clone https://github.com/livekit/agents-playground.git
-cd agents-playground
-npm install
-npm run dev
+git clone https://github.com/livekit/agents-playground.git  
+cd agents-playground  
+npm install  
+npm run dev  
 
 ### 3️⃣ Run the Avatar Agent
 
-python avatar_agent.py download-files
-python avatar_agent.py start
+python avatar_agent.py download-files  
+python avatar_agent.py start  
 
 ### 4️⃣ Start ngrok Tunnel
-python ngrok.py
+python ngrok.py  
 
-Once started, ngrok will print a public URL similar to:
-Please click on the text below http://xxxx-xx-xx-xx.ngrok.io
-Tunnel is running. Press Ctrl+C to stop.
-Use that URL to access or share your live avatar demo.
+Once started, ngrok will print a public URL similar to:  
+Please click on the text below http://xxxx-xx-xx-xx.ngrok.io  
+Tunnel is running. Press Ctrl+C to stop.  
+Use that URL to access or share your live avatar demo.  
