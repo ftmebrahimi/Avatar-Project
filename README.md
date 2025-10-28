@@ -13,6 +13,8 @@ The avatar listens, thinks, and responds naturally with speech, using the follow
 The `avatar_agent.py` script connects all these modules into a single interactive AI experience, while `ngrok.py` creates a public tunnel to make your local avatar accessible from anywhere.
 
 ---
+*Before running, open avatar_agent.py,n grok.py, env.local in agents-playground and .env and replace the empty fields with your own api key or url.
+
 
 ## ⚙️ Setup Instructions
 
@@ -35,7 +37,6 @@ npm run dev
 python avatar_agent.py download-files
 python avatar_agent.py start
 
-***Before running, open avatar_agent.py and replace the empty API key fields with your own credentials.
 ### 4️⃣ Start ngrok Tunnel
 python ngrok.py
 
