@@ -29,14 +29,14 @@ async def entrypoint(ctx: JobContext):
         model="whisper-large-v3-turbo",
         base_url="https://api.groq.com/openai/v1",
         language="en",
-        api_key="",
+        api_key="your api key",
         ),
         llm=openai.LLM(model= "llama-3.1-8b-instant", base_url = 'https://api.groq.com/openai/v1',
-         api_key = ''),
+         api_key = "your api key"),
         tts=openai.TTS(model="playai-tts", 
         base_url = 'https://api.groq.com/openai/v1',
         voice="Judy-PlayAI",
-        api_key="",),
+        api_key="your api key",),
         turn_detection=MultilingualModel(),
     )
     
