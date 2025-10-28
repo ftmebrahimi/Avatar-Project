@@ -1,7 +1,7 @@
 from pyngrok import ngrok
 import signal
-ngrok.set_auth_token("your ngrok api token")
 
+ngrok.set_auth_token("your ngrok api token")
 listener = ngrok.connect(
     addr="localhost:3000",
     metadata="avatar agent public url",
